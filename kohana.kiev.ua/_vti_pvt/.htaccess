@@ -1,0 +1,11 @@
+# -FrontPage-
+
+Options None
+
+<Limit GET POST PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+AuthName www.kohana.kiev.ua
+AuthUserFile /home/andrew956/domains/kohana.kiev.ua/public_html/_vti_pvt/service.pwd
+AuthGroupFile /home/andrew956/domains/kohana.kiev.ua/public_html/_vti_pvt/service.grp

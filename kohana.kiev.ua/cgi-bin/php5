@@ -1,0 +1,11 @@
+#!/bin/sh
+
+export SCRIPT_NAME=$REQUEST_URI
+export SCRIPT_FILENAME=$PATH_TRANSLATED
+export PWD=$DOCUMENT_ROOT
+
+if [ -f "$DOCUMENT_ROOT/../php.ini" ]; then
+exec /usr/local/php5/bin/php5 -c $DOCUMENT_ROOT/../php.ini
+else
+exec /usr/local/php5/bin/php5
+fi

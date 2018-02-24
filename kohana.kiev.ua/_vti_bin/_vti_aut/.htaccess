@@ -1,0 +1,18 @@
+# -FrontPage-
+
+Options None
+
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+require group authors administrators
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+AuthType Basic
+AuthName www.kohana.kiev.ua
+AuthUserFile /home/andrew956/domains/kohana.kiev.ua/public_html/_vti_pvt/service.pwd
+AuthGroupFile /home/andrew956/domains/kohana.kiev.ua/public_html/_vti_pvt/service.grp
