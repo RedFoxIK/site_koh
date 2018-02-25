@@ -144,8 +144,8 @@ footer {
 
 canvas#bubbles {
 	position: absolute;
-	height: 100%;
-	top: 0px;
+	bottom: 0px;
+	height: 82%;
 	z-index: -1;
 }
 
