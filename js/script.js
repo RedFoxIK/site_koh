@@ -11,7 +11,7 @@ $(function(){
 // пузырики
 // Canvas Init
 $(document).ready(function(){
-	
+
 	var c = document.getElementById('bubbles'),
 	ctx = c.getContext('2d'),
 	width = window.innerWidth,
@@ -70,7 +70,7 @@ $(document).ready(function(){
 	width = window.innerWidth,
 	height = window.innerHeight;
 	c.width = width;
-	c.height = height;
+	c.height = height - 500;
 	draw();
 	}
 	resizeCanvas();
