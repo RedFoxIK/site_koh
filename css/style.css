@@ -31,7 +31,16 @@ h1 {
 h2 {
 	text-align: center;
 	font-size: 40px;
-	margin: 15px 0;
+	margin: 40px 0px;
+	position: relative;
+}
+
+h2 img {
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	top: -50px;
+	margin-left: 20px;
 }
 
 h3 {
@@ -104,13 +113,9 @@ footer {
 	border: 2px solid #042467;
 	border-radius: 20px;
 }
-
-#routes .item.first {
-	transform: rotate(15deg);
-}
-
-#routes .item.third {
-	transform: rotate(-15deg);
+#routes .second {
+	position: relative;
+	top: 10px;
 }
 
 #routes h3 {
