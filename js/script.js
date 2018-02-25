@@ -11,14 +11,15 @@ $(function(){
 // пузырики
 // Canvas Init
 $(document).ready(function(){
+	
 	var c = document.getElementById('bubbles'),
 	ctx = c.getContext('2d'),
 	width = window.innerWidth,
 	height = window.innerHeight,
-	particles = 150,
-	minRadius = 0.5,
-	maxRadius = 5,
-	speed = 0.001,
+	particles = 100,
+	minRadius = 0.7,
+	maxRadius = 3,
+	speed = 0.0000001,
 	x = width / particles;
 	 
 	// Bubbles
@@ -29,7 +30,7 @@ $(document).ready(function(){
 	x: i * x,
 	y: height * Math.random(),
 	r: minRadius + Math.random() * (maxRadius - minRadius),
-	speed: 10 * Math.random()
+	speed: 4 * Math.random()
 	});
 	}
 	 
@@ -53,7 +54,7 @@ $(document).ready(function(){
 	b.y -= b.speed;
 	if (b.y < 0) {
 	b.y = height;
-	b.speed = Math.random() * 5;
+	b.speed = Math.random() * 3;
 	}
 	}
 	}
@@ -75,3 +76,4 @@ $(document).ready(function(){
 	resizeCanvas();
 	window.addEventListener('resize', resizeCanvas, false);
 });
+

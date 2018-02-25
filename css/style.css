@@ -3,6 +3,8 @@
 	margin: 0;
 	font-size: 0;
 	text-align: justify;
+	cursor: pointer;
+
 }
 
 img {
@@ -143,6 +145,14 @@ footer {
 canvas#bubbles {
 	position: absolute;
 	height: 100%;
-	top: 0;
+	top: 0px;
 	z-index: -1;
+}
+
+div#container {
+width: 100%;
+height: 100%;
+overflow: hidden;
+background-image: -webkit-linear-gradient(270deg, #419DEF 0%, #1C6599 100%);
+background-image: linear-gradient(-180deg, #419DEF 0%, #1C6599 100%);
 }
