@@ -1,3 +1,28 @@
+@font-face {
+    font-family: Montesuma; /* Имя шрифта */
+    src: url(../fonts/montesuma.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Tavria; /* Имя шрифта */
+    src: url(../fonts/tavria.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Wonderland; /* Имя шрифта */
+    src: url(../fonts/wonderland.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Glamour; /* Имя шрифта */
+    src: url(../fonts/glamour.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Access; /* Имя шрифта */
+    src: url(../fonts/access.ttf); /* Путь к файлу со шрифтом */
+}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -36,12 +61,21 @@ h2 {
 	position: relative;
 }
 
+h2 img.capitan {
+	height: 120px;
+	width: 120px;
+	position: absolute;
+	top: -40px;
+	margin-left: 20px;
+}
+
+
 h2 img.map {
 	height: 150px;
 	width: 150px;
 	position: absolute;
 	top: -50px;
-	margin-left: 20px;
+	margin-left: -170px;
 }
 
 h2 img.mask {
@@ -64,6 +98,10 @@ p, span, strong, i, b, td, th, li {
 	margin: 5px 0;
 }
 
+p {
+	text-indent: 30px;
+}
+
 section {
 	margin: 50px auto;
 }
@@ -76,21 +114,29 @@ header {
 	position: absolute;
 	top: 0;
 	width: 100%;
-	padding-left: 50%;
 	padding-top: 50px
+	text-align: right;
+}
+
+header .container {text-align: right;}
+
+header .logo {
+	display: inline-block;
 }
 
 header .logo p {
-	font-size: 50px;
+	font-size: 20px;
+	font-family: Access;
 }
 
 header .logo span {
-	font-size: 50px;
+	font-size: 30px;
 	font-weight: bold;
 }
 
 header .contacts {
 	margin-top: 40px;
+	display: inline-block;
 }
 
 header .contacts .text {
