@@ -39,7 +39,7 @@ h3 {
 	margin: 10px 0
 }
 
-p, span, strong, i, b {
+p, span, strong, i, b, td, th {
 	font-size: 20px;
 	line-height: 25px;
 	margin: 5px 0;
@@ -54,7 +54,7 @@ section {
 }
 
 footer {
-	min-height: 100px
+	min-height: 200px
 }
 
 .top_photo {
@@ -122,4 +122,22 @@ footer {
 #routes h3,
 #routes p {
 	text-align: center;
+}
+
+#prices table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#prices table th,
+#prices table td {
+	padding: 10px;
+	text-align: center;
+}
+
+canvas#bubbles {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: -1;
 }

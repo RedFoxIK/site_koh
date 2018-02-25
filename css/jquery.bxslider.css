@@ -9,6 +9,7 @@
   *zoom: 1;
   -ms-touch-action: pan-y;
   touch-action: pan-y;
+  margin: 0 auto;
 }
 .bx-wrapper img {
   max-width: 100%;
@@ -28,11 +29,8 @@ ul.bxslider {
 /** THEME
 ===================================*/
 .bx-wrapper {
-  -moz-box-shadow: 0 0 5px #ccc;
-  -webkit-box-shadow: 0 0 5px #ccc;
-  box-shadow: 0 0 5px #ccc;
-  border: 5px solid #fff;
-  background: #fff;
+  border: 2px solid #042467;
+  background: #042467;
 }
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
@@ -61,7 +59,7 @@ ul.bxslider {
   padding-top: 20px;
 }
 .bx-wrapper .bx-pager.bx-default-pager a {
-  background: #666;
+  background: #fff;
   text-indent: -9999px;
   display: block;
   width: 10px;
@@ -75,7 +73,7 @@ ul.bxslider {
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active,
 .bx-wrapper .bx-pager.bx-default-pager a:focus {
-  background: #000;
+  background: #042467;
 }
 .bx-wrapper .bx-pager-item,
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
