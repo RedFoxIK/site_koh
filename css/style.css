@@ -4,7 +4,6 @@
 	font-size: 0;
 	text-align: justify;
 	cursor: pointer;
-
 }
 
 img {
@@ -62,6 +61,48 @@ section {
 
 .center {
 	text-align: center;
+}
+
+header {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	padding-left: 50%;
+	padding-top: 50px
+}
+
+header .logo p {
+	font-size: 50px;
+}
+
+header .logo span {
+	font-size: 50px;
+	font-weight: bold;
+}
+
+header .contacts {
+	margin-top: 40px;
+}
+
+header .contacts .text {
+	display: inline-block;
+	width: 110px;
+	vertical-align: top;
+}
+
+header .contacts .text span {
+	color: #042467;
+	display: block;
+}
+
+header .contacts .number {
+	display: inline-block;
+	vertical-align: top;
+}
+
+header .contacts .number span {
+	color: #042467;
+	display: block;
 }
 
 footer {
@@ -131,15 +172,21 @@ footer {
 	text-align: center;
 }
 
-#prices table {
+#prices .table {
 	width: 100%;
 	border-collapse: collapse;
 }
 
-#prices table th,
-#prices table td {
+#prices .table .tr {
+	display: block;
+}
+
+#prices .table .th,
+#prices .table .td {
 	padding: 10px;
 	text-align: center;
+	display: inline-block;
+	width: calc(50% - 20px);
 }
 
 canvas#bubbles {
