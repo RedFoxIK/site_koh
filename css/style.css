@@ -1,26 +1,26 @@
 @font-face {
-    font-family: Montesuma; /* Имя шрифта */
-    src: url(../fonts/montesuma.ttf); /* Путь к файлу со шрифтом */
+    font-family: Montesuma; 
+    src: url(../fonts/montesuma.ttf);
 }
 
 @font-face {
-    font-family: Tavria; /* Имя шрифта */
-    src: url(../fonts/tavria.ttf); /* Путь к файлу со шрифтом */
+    font-family: Tavria; 
+    src: url(../fonts/tavria.ttf);
 }
 
 @font-face {
-    font-family: Wonderland; /* Имя шрифта */
-    src: url(../fonts/wonderland.ttf); /* Путь к файлу со шрифтом */
+    font-family: Wonderland; 
+    src: url(../fonts/wonderland.ttf);
 }
 
 @font-face {
-    font-family: Glamour; /* Имя шрифта */
-    src: url(../fonts/glamour.ttf); /* Путь к файлу со шрифтом */
+    font-family: Glamour; 
+    src: url(../fonts/glamour.ttf);
 }
 
 @font-face {
-    font-family: Access; /* Имя шрифта */
-    src: url(../fonts/access.ttf); /* Путь к файлу со шрифтом */
+    font-family: Access; 
+    src: url(../fonts/access.ttf);
 }
 
 * {
@@ -111,7 +111,7 @@ h3 {
 	margin: 10px 0
 }
 
-p, span, strong, i, b, td, th, li, strong {
+p, span, strong, i, b, td, th, li, strong, a {
 	font-size: 20px;
 	line-height: 25px;
 	margin: 5px 0;
@@ -173,9 +173,14 @@ header .contacts .text span {
 header .contacts .number {
 	display: inline-block;
 	vertical-align: top;
+	
 }
 
-header .contacts .number span {
+header.phone {
+	margin-bottom: 20px;
+}
+
+header .contacts .number span{
 	color: #042467;
 	display: block;
 }
