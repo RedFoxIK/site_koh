@@ -31,6 +31,10 @@
 	cursor: pointer;
 }
 
+body {
+		overflow-x: hidden;
+}
+
 img {
 	width: 100%;
 	max-width: 100%;
@@ -257,10 +261,14 @@ footer {
 	width: calc(50% - 20px);
 }
 
+#prices .table .th {
+	font-weight: bold;
+	color: yellow;
+}
+
 canvas#bubbles {
 	position: absolute;
 	bottom: 0px;
-	width: 100%;
 	height: 82%;
 	z-index: -1;
 }
