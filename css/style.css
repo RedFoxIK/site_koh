@@ -92,6 +92,14 @@ img.mask {
 	margin-left: 20px;
 }
 
+img.mail_img {
+	height: 30px;
+	width: auto;
+	margin-left: 20px;
+	display: inline-block;
+	float: right;
+}
+
 img.capitan:hover {
 	transform: rotate(-15deg);
 }
