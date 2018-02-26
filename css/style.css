@@ -142,19 +142,22 @@ header {
 	position: absolute;
 	top: 0;
 	width: 100%;
-	padding-top: 50px
+}
+
+header .container {
 	text-align: right;
 }
 
-header .container {text-align: right;}
-
 header .logo {
 	display: inline-block;
+	width: 100%;
+	text-align: right;
 }
 
 header .logo p {
 	font-size: 20px;
 	font-family: Access;
+	display: inline-block;
 }
 
 header .logo span {
@@ -188,9 +191,13 @@ header.phone {
 	margin-bottom: 20px;
 }
 
-header .contacts .number span{
+header .contacts .number span {
 	color: #042467;
-	display: block;
+	display: inline-block;
+}
+
+header .mail_img {
+	display: inline-block;
 }
 
 footer {
