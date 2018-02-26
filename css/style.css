@@ -201,6 +201,7 @@ footer {
 
 #routes {
 	text-align: center;
+	vertical-align: middle;
 }
 
 #routes .item {
@@ -211,20 +212,32 @@ footer {
 	border: 2px solid #042467;
 	border-radius: 20px;
 }
-#routes .second {
+
+#routes .item.first,
+#routes .item.third {
+	line-height: 70px;
+}
+
+#routes .item.second {
 	position: relative;
-	top: 10px;
+	top: 25px;
 }
 
 #routes h3 {
 	border-bottom: 2px dotted #042467;
-	min-height: 50px;
+	min-height: 70px;
 	padding-bottom: 10px;
+	vertical-align: middle;
 }
 
 #routes h3,
 #routes p {
 	text-align: center;
+}
+
+#routes .item.first p.main,
+#routes .item.third p.main {
+	min-height: 100px;
 }
 
 #prices .table {
