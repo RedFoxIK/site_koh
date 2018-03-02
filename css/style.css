@@ -210,7 +210,22 @@ header .contacts .text span {
 header .contacts .number {
 	display: inline-block;
 	vertical-align: top;
-	
+}
+
+header .contacts .number span {
+	display: block;
+}
+
+header .contacts a {
+	text-decoration: none;
+}
+
+header .contacts a:hover {
+	color: #3337ff;
+}
+
+header .contacts a:active {
+	color: #042467;
 }
 
 header.phone {
@@ -219,7 +234,6 @@ header.phone {
 
 header .contacts .number span {
 	color: #042467;
-	display: inline-block;
 }
 
 header .mail_img {
