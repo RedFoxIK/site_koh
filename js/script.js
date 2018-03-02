@@ -41,7 +41,7 @@ $(document).ready(function(){
 	c.height = height;
 	for (i = 0; i < Bubbles.length; i++) {
 	var b = Bubbles[i];
-	console.log(i, b);
+	// console.log(i, b);
 	ctx.beginPath();
 	ctx.arc(b.x, b.y, b.r, 0, 2 * Math.PI);
 	 
