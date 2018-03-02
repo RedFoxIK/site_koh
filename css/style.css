@@ -123,11 +123,15 @@ h3 {
 	margin: 10px 0
 }
 
-p, span, strong, i, b, td, th, li, strong, a {
+p, span, i, b, td, th, li, a, strong {
 	font-size: 20px;
 	line-height: 25px;
 	margin: 5px 0;
 	font-weight: normal;
+}
+
+body > strong:last-child strong {
+	line-height: 0;
 }
 
 p, span, h1, h2, h3, h4, h5, h6 {
@@ -144,6 +148,12 @@ p.main {
 
 section {
 	margin: 50px auto;
+}
+
+#about p {
+	margin: 25px 0;
+	text-indent: 30px;
+	line-height: 1.2em;
 }
 
 .center {
